@@ -32,12 +32,12 @@ int main() {
 					printf("so lon nhat la: %d\n", z);
 				} break;
 			case 4:
-				if(x>y&&x>z) {
-					printf("so lon nhat la: %d\n", x);
-				} else if(y>x&&y>z) {
-					printf("so lon nhat la: %d\n", y);
+				if(x<y&&x<z) {
+					printf("so nho nhat la: %d\n", x);
+				} else if(y<x&&y<z) {
+					printf("so nho nhat la: %d\n", y);
 				} else {
-					printf("so lon nhat la: %d\n", z);
+					printf("so nho nhat la: %d\n", z);
 				} break;
 			case 6:
 				return 0;
